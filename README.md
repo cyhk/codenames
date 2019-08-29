@@ -1,3 +1,12 @@
+### Codenames
+
+A Codenames game built with React.
+
+The purpose of this app is to:
+- play Codenames remotely with friends
+- get used to using functional components and hooks
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
