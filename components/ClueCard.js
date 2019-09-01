@@ -3,7 +3,7 @@ import ClueCardContext from "./ClueCardContext";
 
 const ClueCard = ({ isSpyMaster }) => {
   const { clueCard } = useContext(ClueCardContext);
-  
+
   return  isSpyMaster? (
     <div>
       
