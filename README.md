@@ -32,7 +32,6 @@ jest -i
 
 # API
 
-## Companies
 **GET /words**
 
 Gets a random list of 25 words from noun list in the form of a 5x5 2D array
