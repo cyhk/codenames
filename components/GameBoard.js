@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import WordCard from './WordCard';
+import ClueCardContext from "./ClueCardContext";
 
-function GameBoard(props) {
+const GameBoard = () => {
+  const { words } = useContext(ClueCardContext);
   return (
-    props.words.map(
-      word => <WordCard key={word} word={word} />
+    words.map(
+      (wordRow, row) => wordRow.map(
+        (word, i) => <WordCard key={word} word={word} position={`${row}-${i}`}/>
+      )
     )
   );
 }

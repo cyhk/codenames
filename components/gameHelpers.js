@@ -1,10 +1,6 @@
-import fs from "fs";
-import { sample } from "lodash";
+import axios from "axios";
 
-export async function getWordsFromList() {
-  fs.readFile("../nounlist.txt", (err, data) => {
-    if (err) throw err;
-    console.log(data);
-    return sample(data);
-  });
+export async function getWordsFromApi() {
+  let response = await axios.get("/api/words");
+  return response.data.words;
 }

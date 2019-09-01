@@ -1,14 +1,18 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import ClueCardContext from "./ClueCardContext";
 
-function WordCard(props) {
+const WordCard = ({word, position}) => {
+  const { clueCard } = useContext(ClueCardContext);
 
   function revealColor(){
-    return "red"
+    const coord = position.split('-');
+    
+    return clueCard[coord[0]][coord[1]];
   }
 
   return (
-    <div className="card w-20" onClick={revealColor}>
-      {props.word}
+    <div onClick={revealColor}>
+      {word}
     </div>
   );
 }
