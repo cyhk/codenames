@@ -1,4 +1,4 @@
-# Jobly
+# Codenames
 An app to play Codenames built with React, Next.js, and Socket.io.
 
 Play with your friends! Invite up to 7 other friends to play a game of Codenames.
