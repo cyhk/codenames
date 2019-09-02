@@ -1,3 +1,4 @@
+- update README
 - make database to store ongoing games
 - make express backend to integrate socket.io and flesh out chat component
 - figure out how to have games persist as long as there are users in the games
