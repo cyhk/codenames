@@ -1,5 +1,5 @@
 # Codenames
-An app to play Codenames built with React, Next.js, and Socket.io.
+An app to play Codenames built with React, Next.js, Express, and Socket.io.
 
 Play with your friends! Invite up to 7 other friends to play a game of Codenames.
 
@@ -10,6 +10,7 @@ To be implemented:
 **Built with:**
 - Next.js
 - React
+- Express
 - Socket.io
 
 # How to use

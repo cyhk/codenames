@@ -1,0 +1,9 @@
+- make database to store ongoing games
+- make express backend to integrate socket.io and flesh out chat component
+- figure out how to have games persist as long as there are users in the games
+
+- make sure nobody new can join game when game has begun
+- make sure no one can join game when game has 8 people
+
+- style everything
+- deploy when complete

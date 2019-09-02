@@ -9,7 +9,6 @@ export default async (req, res) => {
   const wordsArr = words.split(/[\r\n]/g);
   const wordChoices = _.sampleSize(wordsArr, 25);
 
-
   const row = Array.from({ length: 5 });
   const wordGrid = row.map(() => Array.from({ length: 5 }));
 

@@ -6,7 +6,7 @@ const ClueCard = ({ isSpyMaster }) => {
 
   return  isSpyMaster? (
     <div>
-      
+      clueCard.map(row => row.map(cell => <div>{cell}</div>))
     </div>
   ): (
     <div>
