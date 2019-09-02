@@ -14,5 +14,8 @@
     "dev": "next",
     "build": "next build",
     "start": "next start"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^9.1.3"
   }
 }

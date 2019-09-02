@@ -27,7 +27,7 @@ yarn start
 
 To run tests:
 ```
-jest -i
+jest
 ```
 
 # API
