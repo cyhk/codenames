@@ -1,6 +1,10 @@
 import React, { useEffect } from 'react';
+import io from 'socket.io-client';
 
-const Chat = () => {
+// const socket = io.connect('http://localhost:80');
+
+
+const Chat = (props) => {
   useEffect(() => {
 
   }, []);
